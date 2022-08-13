@@ -1,7 +1,13 @@
-.message {
-  font-size: larger;
+html, body {
+  margin: 0;
 }
 
-.anotherClass {
-  border: 3px;
+.image {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url(_goldstack/static/pexels-gelgas-airlangga-401213.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

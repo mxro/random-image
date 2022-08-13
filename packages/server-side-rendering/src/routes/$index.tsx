@@ -16,7 +16,7 @@ type ProxyHandler = Handler<APIGatewayProxyEventV2, APIGatewayProxyResultV2>;
 const Index = (props: { message: string }): JSX.Element => {
   return (
     <>
-      <div className={styles.message}>{props.message}</div>
+      <div className={styles.image}></div>
     </>
   );
 };
