@@ -1,0 +1,33 @@
+{
+  "projectName": "randomimage",
+  "packages": [
+    {
+      "packageName": "server-side-rendering",
+      "templateReference": {
+        "templateName": "server-side-rendering"
+      }
+    },
+    {
+      "packageName": "s3",
+      "templateReference": {
+        "templateName": "s3"
+      }
+    },
+    {
+      "packageName": "dynamodb",
+      "templateReference": {
+        "templateName": "dynamodb"
+      }
+    },
+    {
+      "packageName": "email-send",
+      "templateReference": {
+        "templateName": "email-send"
+      }
+    }
+  ],
+  "rootTemplateReference": {
+    "templateName": "yarn-pnp-monorepo"
+  },
+  "createdAt": "2022-08-13T23:05:52.838Z"
+}

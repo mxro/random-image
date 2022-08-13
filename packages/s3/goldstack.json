@@ -1,0 +1,17 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "s3",
+  "template": "s3",
+  "templateVersion": "0.1.84",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "configuration": {
+        "bucketName": "mxro-random-image"
+      },
+      "awsUser": "awsUser",
+      "awsRegion": "ap-southeast-2"
+    }
+  ]
+}
