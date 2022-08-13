@@ -8,13 +8,19 @@
     {
       "name": "prod",
       "configuration": {
-        "lambdas": {},
+        "lambdas": {
+          "ANY /": {
+            "function_name": "randomimage--__index",
+            "route": "ANY /"
+          }
+        },
         "lambdaNamePrefix": "randomimage",
         "domain": "random-image.mxro.de",
         "hostedZoneDomain": "random-image.mxro.de"
       },
       "awsUser": "awsUser",
-      "awsRegion": "ap-southeast-2"
+      "awsRegion": "ap-southeast-2",
+      "tfStateKey": "server-side-rendering-prod-775082f4394f040e9443.tfstate"
     }
   ]
 }

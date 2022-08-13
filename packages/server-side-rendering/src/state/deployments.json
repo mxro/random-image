@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "name": "prod",
+    "terraform": {
+      "gateway_url": {
+        "sensitive": false,
+        "type": "string",
+        "value": "https://gda7hebsp4.execute-api.ap-southeast-2.amazonaws.com"
+      },
+      "public_files_bucket": {
+        "sensitive": false,
+        "type": "string",
+        "value": "random-image.mxro.de-public-files-0f2671e6"
+      },
+      "static_files_bucket": {
+        "sensitive": false,
+        "type": "string",
+        "value": "random-image.mxro.de-static-files-0f2671e6"
+      }
+    }
+  }
+]
