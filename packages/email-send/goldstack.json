@@ -9,7 +9,7 @@
       "name": "prod",
       "configuration": {
         "domain": "random-image.mxro.de",
-        "hostedZoneDomain": "mxro.de"
+        "hostedZoneDomain": "random-image.mxro.de"
       },
       "awsUser": "awsUser",
       "awsRegion": "ap-southeast-2"
