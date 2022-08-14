@@ -18,7 +18,7 @@ export const renderDocument = ({
   </head>
   <body>
     <div id="root">${renderedHtml}</div>
-    <script src="${bundledJsPath}"></script>
+    <!-- <script src="${bundledJsPath}"></script> -->
   </body>
 </html>
   `;
